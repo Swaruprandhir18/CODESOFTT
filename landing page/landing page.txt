@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swaroop Enterprises</title>
+  <style>
+  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+  }
+  
+  header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: solid;
+    color: #fff;
+  }
+  
+  #hero {
+    background-color: turquoise;
+    padding: 90px 0;
+    text-align: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border-style: solid;
+  }
+  
+  section {
+    padding: 50px 0;
+    text-align: center;
+    color: royalblue;
+  }
+  
+  .feature, .plan {
+    margin-bottom: 30px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Swaroop Enterprises</h1>
+    <p>Together We Can</p>
+    <a href="#signup" class="btn">Sign Up Now</a>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <div class="feature">
+      <h3>Feature 1</h3>
+      <p>We Provide Network In Rural Areas.</p>
+    </div>
+    <div class="feature">
+      <h3>Feature 2</h3>
+      <p>We Provide Minumum Rate Plan with Effective Performance.</p>
+    </div>
+    <!-- Add more features -->
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <div class="plan">
+      <h3>Basic Plan</h3>
+      <p>We Provide Basic Plan which give you highest range of 4G Network.</p>
+      <span>$10/month</span>
+    </div>
+    <div class="plan">
+      <h3>Premium Plan</h3>
+      <p>We Provide Premium Plan which give you highest range of 5G Network.</p>
+      <span>$20/month</span>
+    </div>
+    <!-- Add more pricing plans -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <h4>Mobile No: 8625007264</h4> 
+    <h4> abc@gmail.com</h4>
+    <form>
+        <h5>Thank You For Visiting Website. If there any Feedback Please Feel Free to Write Below</h5>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Swaroop Enterprises. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
